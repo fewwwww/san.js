@@ -1,1 +1,6 @@
 WHAT IS WEBGL?
+  * JS API
+  * draw many triangles
+  * result can be drawn in <canvas>
+  * use GPU (parallel calculations)
+  * can be for 2D
