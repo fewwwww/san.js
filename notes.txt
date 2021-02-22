@@ -4,3 +4,28 @@ WHAT IS WEBGL?
   * result can be drawn in <canvas>
   * use GPU (parallel calculations)
   * can be for 2D
+
+GET STARTED:
+  1. a scene (like a container)
+  2. some objects (geometries, models, lights)
+       mesh = geometry + material
+       // const mesh = new THREE.Mesh(geometry, material)
+       // const geometry = new THREE.BoxGeometry(1, 1, 1)
+       // const material = new THREE.MeshBasicMaterial({ color: 'red'})
+       // scene.add(mesh)
+  3. a camera
+       fov: angle of view
+       sizes: for aspect ratio
+       aspect ratio: width / height
+       renderer: render stuff into canvas
+       // const sizes = {
+           width: 800,
+           height: 600
+          }
+       // const camera = new THREE.PerspectiveCamera(75, sizes.height/sizes.width)
+       // camera.position.z = 3
+       // scene.add(camera)
+  4. a renderer
+       // const renderer = new THREE.WebGLRenderer({canvas})
+       // renderer.setSize(sizes.width, sizes.height)
+       // renderer.render(scene, camera)
